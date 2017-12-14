@@ -46,7 +46,7 @@ ps aux | grep java | grep -v 'grep' | xargs kill -9
 - netstat: learning the network status
 
 ```sh
-netstat -antp | grep 8080
+netstat -antlp | grep 8080
 ```
 
 - redirect:  nohup running application
@@ -95,6 +95,8 @@ rsync -av source target
 ```sh
 lsof | wc -l
 lsof -u <user>
+lsof -i udp:53
+lsof -i tcp:8080
 ```
 
 - netstat
