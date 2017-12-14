@@ -135,6 +135,7 @@ vmstat 1 100
 crontab -e
 ```
 
+---
 @title[Vim Cheatsheet-Line Movement]
 ## Vim Cheatsheet-Line Movement
 
@@ -151,6 +152,7 @@ crontab -e
 |$|end of a line|
 |g_|last word of a line|
 
+---
 @title[Vim Cheatsheet-Screen Movement]
 ## Vim Cheatsheet-Screen Movement
 
@@ -164,6 +166,8 @@ crontab -e
 |Ctrl+d|half screen forward|
 |Ctrl+u|half screen backward|
 
+---
+
 @title[Vim Cheatsheet-Special Movement]
 ## Vim Cheatsheet-Special Movement
 
@@ -173,6 +177,8 @@ crontab -e
 |NG|GO to N Line|
 |gg|head of a file|
 |G|end of a file|
+
+---
 
 @title[Vim Cheatsheet-Movement between words]
 ## Vim Cheatsheet-Movement between words
@@ -186,6 +192,8 @@ crontab -e
 |w|nex word|
 |W|next big word|
 
+---
+
 @title[Vim Cheatsheet-Paragraph and Search]
 ## Vim Cheatsheet-Paragraph and Search
 
@@ -198,6 +206,8 @@ crontab -e
 |*|move cursor to next word position|
 |#|move cursor to previous word position|
 |%|move around ()|
+
+---
 
 @title[Vim Cheatsheet-Command]
 ## Vim Cheatsheet-Command
