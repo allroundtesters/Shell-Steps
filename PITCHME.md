@@ -1,10 +1,12 @@
 
-# Tester's Linux Commands/Shell Notes
+# Tester's Commands/Shell Notes
 
 [shell-steps](http://gitpitch.com/allroundtesters/Shell-Steps)
 
 ---
-## Tester's Linux Commands
+
+@title[Tester's Top Commands]
+## Tester's Top Commands
 
 - tail: used for learning the log info
 - ssh: used to connect to server
@@ -17,6 +19,9 @@
 
 +++
 
+@title[Tester's commands]
+## Tester's Commands
+
 - tee: write to new std output and a file
 - sysctl: runing/stop/restart service
 - head
@@ -26,6 +31,8 @@
 - rsync
 
 ---
+
+@tilte[Tester's Monitoring Commands]
 ## Tester's Monitoring Commands
 
 - df/du
@@ -37,6 +44,9 @@
 - vmstat
 - iostate
 
+---
+
+@title[Tester's advanced Commands]
 ## Tester's advanced Commands
 
 - awk
