@@ -231,3 +231,57 @@ vim +10 /etc/passwd #open file and go to line 10
 vim +/install README # open file and go to first install
 vim +?bug README # open file and go to last bug
 ```
+
+---
+
+@title[Shell-Assignment]
+## Shell-assignment
+
+Assign Value
+
+```sh
+ARG1=Tester
+echo $ARG1
+CURRENT_PATH=`pwd`
+echo ${CURRENT_PATH}
+```
+---
+@title[Shell For-loop]
+## Shell Loop
+
+- For Loop
+
+```sh
+echo "for loop"
+for i in {1..9};do
+    echo $i
+done
+
+for var in "service controller domain rest"
+do 
+    echo $var\n
+done
+
+```
+
+- do-while
+
+```sh
+while read f1 f2 f3
+do
+    echo "$f1 $2 $3"
+done < ./shell_demo.txt
+```
+
+--- 
+## Shell If-else
+
+```sh
+if [ ! -n "$1" ]
+then
+   echo "script need one arg"
+   exit 1
+fi
+echo !
+echo $1
+```
