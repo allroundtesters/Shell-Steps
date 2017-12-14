@@ -66,3 +66,4 @@ vim +10 /etc/passwd #open file and go to line 10
 vim +/install README # open file and go to first install
 vim +?bug README # open file and go to last bug
 ```
+

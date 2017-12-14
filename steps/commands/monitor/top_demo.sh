@@ -3,3 +3,4 @@
 # htop
 # top
 # f -> %MEM
+# c
