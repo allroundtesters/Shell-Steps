@@ -1,5 +1,5 @@
 slider-number: true
 charts: true
-theme: moon
-highlight : monokai
-footnote : "© allroundtester.io"
+theme: White
+highlight: monokai
+footnote: "© allroundtester.io"
