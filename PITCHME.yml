@@ -3,3 +3,4 @@ charts: true
 theme: White
 highlight: monokai
 footnote: "© allroundtester.io"
+vertical-center : false

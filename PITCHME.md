@@ -73,6 +73,7 @@ grep Exception error.log
 sysctl nginx status
 ```
 
+- tar
 - head
 - sort
 - uniq
