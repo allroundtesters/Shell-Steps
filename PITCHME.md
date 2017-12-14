@@ -6,15 +6,39 @@
 ---
 ## Tester's Linux Commands
 
-- cd
-- tail
-- head
-- ssh
-- sort
-- redirect
+- tail: used for learning the log info
+- ssh: used to connect to server
+- find: find files
+- ps: find process information
+- xargs: shell scripts
+- netstat: learning the network status
+- redirect:  nohup running application
+- grep: find some keywords
+
 +++
-- tee
+
+- tee: write to new std output and a file
+- sysctl: runing/stop/restart service
+- head
+- sort
 - uniq
-- ps
-- service
-- xargs
+- tr
+- rsync
+
+---
+## Tester's Monitoring Commands
+
+- df/du
+- free
+- lsof
+- netstat
+- sar
+- top/htop
+- vmstat
+- iostate
+
+## Tester's advanced Commands
+
+- awk
+- sed
+- crontab
