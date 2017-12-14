@@ -4,7 +4,7 @@
 [shell-steps](http://gitpitch.com/allroundtesters/Shell-Steps)
 
 ---
-## Tester's Common Used Linux Commands
+## Tester's Linux Commands
 
 - cd
 - tail
