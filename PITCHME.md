@@ -150,6 +150,8 @@ crontab -e
 
 +++ 
 
+|Key|direction|
+|---|---------|
 |0|jump to beginnign of a line|
 |^|first word of a line|
 |$|end of a line|
@@ -167,6 +169,8 @@ crontab -e
 |Ctrl+f|screen forward|
 |Ctrl+b|screen backward|
 +++
+|Key|direction|
+|---|---------|
 |Ctrl+d|half screen forward|
 |Ctrl+u|half screen backward|
 
@@ -194,6 +198,8 @@ crontab -e
 |b|previous word|
 |B|previous big word|
 +++
+|Key|direction|
+|---|---------|
 |w|nex word|
 |W|next big word|
 
@@ -208,6 +214,9 @@ crontab -e
 |}|end of a big word|
 |/text|search after the cursor|
 |?text|search before the cursor|
++++
+|Key|direction|
+|---|---------|
 |*|move cursor to next word position|
 |#|move cursor to previous word position|
 |%|move around ()|
