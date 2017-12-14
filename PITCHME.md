@@ -147,6 +147,9 @@ crontab -e
 |i|right|
 |10k|up to 10 lines|
 |5h|move right 5 words|
+
++++ 
+
 |0|jump to beginnign of a line|
 |^|first word of a line|
 |$|end of a line|
@@ -163,6 +166,7 @@ crontab -e
 |L|Last line of current Screen|
 |Ctrl+f|screen forward|
 |Ctrl+b|screen backward|
++++
 |Ctrl+d|half screen forward|
 |Ctrl+u|half screen backward|
 
@@ -189,6 +193,7 @@ crontab -e
 |E|end of a big word|
 |b|previous word|
 |B|previous big word|
++++
 |w|nex word|
 |W|next big word|
 
