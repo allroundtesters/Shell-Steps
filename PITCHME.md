@@ -137,6 +137,14 @@ crontab -e
 ```
 
 ---
+
+@title[Sed Usage]
+## sed usage
+
+```sh
+
+```
+
 @title[Vim Cheatsheet-Line Movement]
 ## Vim Cheatsheet-Line Movement
 
@@ -286,3 +294,94 @@ fi
 echo !
 echo $1
 ```
+
+---
+## Shell Process Return Value 
+
+return value is between 0-255 in linux,
+
+- 0: process exit status is true, that means everything is all right
+- not 0: process exit status is false, something goes wrong
+
+- 0 example:
+
+```sh
+touch new.file
+echo $? #print 0. touch file successfully
+```
+- 1 example:
+
+```sh
+ls noexist.file  ## list a file which doesn't exist
+echo $? # 1 returned, means something goes wrong
+```
+---
+
+## Shell Test Expression
+
+test expression or [ expression ]
+
+```sh
+if test  "$A" -eq 123 
+then
+    echo "yes, A is 123"
+else
+    echo "Sorry A is not 123"
+fi
+```
+
+```sh
+if [ "$A" -eq 123 ] 
+then
+    echo "yes, A is 123"
+else
+    echo "Sorry A is not 123"
+fi
+```
+
++++
+
+- AND: &&(-a) 
+- OR: ||
+
+```sh
+[ -d "$file" && -x "$file"]
+```
+
+---
+
+## FD: File Descriptor
+
+File Descriptor: linux process open three files as default, the following three:
+
+- 0: standard input(STDIN), keyboard
+- 1: standard output(STDOUT): monitor
+- 2: standard Error output (STDERR): monitor
+
+--- 
+
+## Input/Output redirection
+
+- ```<``` as input redirection
+
+```sh
+cat < README.md
+```
+
+- ```>``` as output redirection
+
+```sh
+ls nosuch.file 2> /dev/nulll
+```
+
+- stdout and stderr combined by ```2>&1```
+
+```sh
+cat nosuch.file >/dev/null 2>&1
+```
+- append by ```>>```
+
+---
+<!-- 
+## Shell Variable -->
+
