@@ -382,6 +382,22 @@ cat nosuch.file >/dev/null 2>&1
 - append by ```>>```
 
 ---
-<!-- 
-## Shell Variable -->
+
+## Shell Function
+
+Define a shell function:
+
+```sh
+function echoIt(){
+ echo "this is echo it function"
+}
+```
+
+Invoke a shell function:
+
+```sh
+echoIt
+```
+
+---
 
