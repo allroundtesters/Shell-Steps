@@ -67,11 +67,21 @@ grep Exception error.log
 ## Tester's Commands
 
 - tee: write to new std output and a file
-- sysctl: runing/stop/restart service
 
 ```sh
-sysctl nginx status
+man tee | tee man_tee.txt
 ```
+
+if you want to read the manual of tee, then you get it in man_tee.txt.
+
+---
+
+- systemctl: runing/stop/restart service
+
+```sh
+systemctl nginx status
+```
+---
 
 - tar
 - head
@@ -401,3 +411,12 @@ echoIt
 
 ---
 
+## Shell For args
+
+- $# the total amount of argument
+- $1 reperent the first argument
+- #? reperesent last return value
+- $0 the file name 
+- if [ -z $1 ] to judge if the first parameter exists
+
+---
