@@ -1,4 +1,3 @@
-VIM_cheatsheet.md
 ac_demo.sh
 awk_demo.sh
 bash_demo.sh
@@ -8,6 +7,7 @@ cut_demo.sh
 date_demo.sh
 demo.txt
 diff_demo.sh
+eq_demo.sh
 error.log
 fdisk_demo.sh
 file_list.txt
@@ -24,13 +24,14 @@ logrotate_demo.sh
 monitor
 nohup_demo.sh
 others_demo.sh
+outline.md
 path_relative.sh
 ps_demo.sh
 random
 redirect.sh
 rsync_demo.sh
-sed.txt
 sed_demo.sh
+sed.txt
 service_demo.sh
 sort_demo.sh
 ssh_demo.sh
@@ -40,6 +41,7 @@ tee_demo.sh
 tr_demo.sh
 uniq_demo.sh
 users_demo.sh
+VIM_cheatsheet.md
 watch_demo.sh
 xargs_demo.sh
 yum_demo.sh
